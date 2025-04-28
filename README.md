@@ -5,7 +5,7 @@ DISCLAIMER: this is just an example of how an ERC20 could look like using MUD. I
 Limitations:
 - As the token is also a System, if it gets upgraded its address will change, so you probably want to transfer its ownership to the zero address after deploying so it can't be upgraded.
 - This is unaudited code, do not use in production.
-- This is just an example of how an ERC20 token could look like using MUD for its storage. It might not the best or even a great way of implementing a token.
+- This is just an example of how an ERC20 token could look like using MUD for its storage.
 
 ## Usage
 
