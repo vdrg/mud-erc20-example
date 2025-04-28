@@ -33,6 +33,8 @@ contract PostDeploy is Script {
     Owner.set(vm.addr(deployerPrivateKey));
 
     vm.stopBroadcast();
+
+    console.log("Deployed MyToken at:", address(myToken));
   }
 
   function isContract(address addr) internal view returns (bool) {
