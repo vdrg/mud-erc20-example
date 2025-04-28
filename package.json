@@ -15,6 +15,7 @@
     "forge-std": "https://github.com/foundry-rs/forge-std.git#3b20d60d14b343ee4f908cb8079495c07f5e8981",
     "@latticexyz/cli": "2.2.22-582f7187cf3cb1e0013aa5d192560235114d71e0",
     "@latticexyz/schema-type": "2.2.22-582f7187cf3cb1e0013aa5d192560235114d71e0",
+    "@latticexyz/common": "2.2.22-582f7187cf3cb1e0013aa5d192560235114d71e0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
@@ -22,5 +23,10 @@
     "@latticexyz/world": "2.2.22-582f7187cf3cb1e0013aa5d192560235114d71e0",
     "@latticexyz/world-consumer": "2.2.22-582f7187cf3cb1e0013aa5d192560235114d71e0",
     "@openzeppelin/contracts": "^5.3.0"
-  }
+  },
+  "engines": {
+    "node": "^20",
+    "pnpm": "^9"
+  },
+  "packageManager": "pnpm@9.14.2"
 }
