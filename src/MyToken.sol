@@ -13,7 +13,6 @@ import { TotalSupply } from "./codegen/tables/TotalSupply.sol";
 
 import { BaseERC20 } from "./BaseERC20.sol";
 
-// TODO: replace the world's address!
 contract MyToken is BaseERC20, WorldConsumer {
   constructor(IBaseWorld world) WorldConsumer(world) { }
 
